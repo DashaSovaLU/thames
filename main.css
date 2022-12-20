@@ -1,20 +1,5 @@
 @import url("./css/normalize.css");
 @import url("./css/fonts.css");
+@import url("./css/global.css");
 
-body {
-	font-family: "League Spartan", sans-serif;
-}
-
-/* block */
-.block {
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding: 20px;
-}
-
-.block__wrap {
-	width: 100%;
-	max-width: 1244px;
-}
+@import url("./css/block/header.css");

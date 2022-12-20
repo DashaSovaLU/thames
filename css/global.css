@@ -1,0 +1,18 @@
+body {
+	font-family: "League Spartan", sans-serif;
+	background-color: rgb(154, 154, 154);
+}
+
+/* block */
+.block {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+
+.block__wrap {
+	width: 100%;
+	max-width: 1244px;
+}
