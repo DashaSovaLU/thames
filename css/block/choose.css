@@ -1,0 +1,42 @@
+.choose {
+	background: #ffffff;
+}
+
+.choose__wrap {
+	padding: 70px 0 60px;
+	display: flex;
+	gap: 30px;
+}
+
+.choose__title {
+	font-family: "Literata";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 42px;
+	line-height: 62px;
+	color: #1c1c1c;
+	margin: 0 0 55px;
+	max-width: 340px;
+}
+
+.choose__img {
+	position: relative;
+}
+
+.choose__img > img {
+	position: relative;
+	z-index: 2;
+}
+
+.choose__img::before {
+	content: "";
+	height: 200px;
+	width: 100%;
+	background: #ff4747;
+	border-radius: 20px;
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+}

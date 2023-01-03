@@ -16,3 +16,29 @@ body {
 	width: 100%;
 	max-width: 1244px;
 }
+
+.btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-width: 120px;
+	background: #ff4747;
+	border-radius: 2px;
+	padding: 6px 20px;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	color: #ffffff;
+	cursor: pointer;
+
+	transition: background 250ms ease-in-out 0ms;
+}
+
+.btn:hover {
+	background: #cc3939;
+}
+
+.btn:active {
+	background: blue;
+}
