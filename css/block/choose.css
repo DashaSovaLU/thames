@@ -61,9 +61,15 @@
 	flex-direction: column;
 	gap: 30px;
 	margin-left: auto;
-	overflow: auto;
+	overflow-y: auto;
+	scrollbar-width: none;
 	height: 850px;
 	padding-right: 7px;
+}
+
+/* write in note */
+.choose__right::-webkit-scrollbar {
+	width: 0;
 }
 
 .choose__item {
