@@ -1,0 +1,50 @@
+.information {
+	background-color: #ffffff;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.information__wrap {
+	background-image: url(../../img/information/back.png);
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+
+.information__title {
+	font-family: "Literata";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 42px;
+	line-height: 100%;
+	color: #1c1c1c;
+	margin: 0 0 50px;
+	text-align: center;
+}
+
+.information__text-wrap {
+	max-width: 735px;
+}
+
+.information__text {
+	font-family: "Spartan";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 130%;
+	color: #000000;
+	margin: 0 0 23px;
+}
+
+.information__btn {
+	margin-top: 60px;
+}
+
+.information__incide {
+	display: flex;
+	align-items: flex-end;
+	gap: 20px;
+}
+
+.information_img {
+	margin-left: auto;
+}
