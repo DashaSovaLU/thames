@@ -47,4 +47,36 @@
 
 .information_img {
 	margin-left: auto;
+	position: relative;
+}
+
+.information_img > img {
+	position: relative;
+	z-index: 2;
+}
+
+.information_img::before {
+	content: "";
+	width: 450px;
+	height: 200px;
+	background: #4771ff;
+	border-radius: 20px;
+	display: block;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	z-index: 1;
+}
+
+.information_img::after {
+	content: "";
+	position: absolute;
+	width: 286px;
+	height: 286px;
+	background: #4771ff;
+	opacity: 0.2;
+	filter: blur(50px);
+	border-radius: 268px;
+	right: 136px;
+	bottom: 172px;
 }
