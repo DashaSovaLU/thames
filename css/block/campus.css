@@ -1,0 +1,14 @@
+.campus {
+	background-color: #ffffff;
+}
+
+.campus__title {
+	font-family: "Literata";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 42px;
+	line-height: 100%;
+	color: #1c1c1c;
+	margin: 0 0 50px;
+	text-align: center;
+}
