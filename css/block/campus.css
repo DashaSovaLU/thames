@@ -1,5 +1,10 @@
 .campus {
 	background-color: #ffffff;
+	padding-bottom: 56px;
+}
+
+.campus__wrap {
+	max-width: 1400px;
 }
 
 .campus__title {
@@ -11,4 +16,73 @@
 	color: #1c1c1c;
 	margin: 0 0 50px;
 	text-align: center;
+}
+
+.campus__cards {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 14px;
+}
+
+.campus__card {
+	width: calc(50% - 7px);
+	background: #f5f5f5;
+	border: 10px solid #ff4747;
+	padding: 20px 20px 25px;
+	display: flex;
+}
+.campus__card > img {
+	width: 360px;
+	height: 235px;
+	filter: drop-shadow(10px 10px 0px #4771ff);
+}
+
+.campus__card:nth-child(4n + 2) > img,
+.campus__card:nth-child(4n + 3) > img {
+	filter: drop-shadow(10px 10px 0px #ff4747);
+}
+
+.campus__card:nth-child(4n + 2),
+.campus__card:nth-child(4n + 3) {
+	border: 10px solid #4771ff;
+}
+
+.campus__card__title {
+	font-family: "Literata";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 42px;
+	line-height: 62px;
+	color: #404040;
+	margin: 0 0 63px;
+}
+
+.campus__card__tel {
+	display: block;
+	font-family: "Spartan";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 130%;
+	color: #404040;
+	margin-bottom: 12px;
+	text-decoration: none;
+}
+
+.campus__card__mail {
+	font-family: "Spartan";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 130%;
+	color: #404040;
+	text-decoration: none;
+}
+
+.campus__card__tel:hover {
+	text-decoration: underline;
+}
+
+.campus__card__mail:hover {
+	text-decoration: underline;
 }
