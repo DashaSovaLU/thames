@@ -24,6 +24,13 @@
 	display: flex;
 	flex-direction: row;
 	overflow: auto;
+	overflow-x: auto;
+	scrollbar-width: none;
+	padding-bottom: 50px;
+}
+
+.news__item::-webkit-scrollbar {
+	width: 0;
 }
 
 .news__item__card {
@@ -35,11 +42,6 @@
 	gap: 10px;
 	max-width: 525px;
 	width: 100%;
-	scrollbar-high: none;
-}
-
-.news__item__card::-webkit-scrollbar {
-	height: 0;
 }
 
 .news__item__card::after {
