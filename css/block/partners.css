@@ -6,12 +6,10 @@
 
 .partners__item {
 	display: flex;
-	gap: 94px;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 10px;
 	margin: 0 0 76px;
-}
-
-.partners__link {
-	justify-content: center;
 }
 
 .partners__link__text {
